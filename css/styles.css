@@ -954,7 +954,7 @@ img {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border: none;
     cursor: pointer;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
 
     color: var(--WHITE, #FFF);
     text-align: center;
