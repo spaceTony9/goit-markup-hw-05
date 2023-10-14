@@ -793,13 +793,19 @@ img {
     margin-bottom: 16px;
 }
 
-.modal-form-label {
+.modal-container-input-logo {
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
-.modal-form-name {
+
+.modal-form-label {
+}
+
+
+.modal-input-wrap {
+    position: relative;
 }
 
 
@@ -819,10 +825,6 @@ img {
     border-color:  var(--IRIS, #4D5AE5);
 }
 
-.modal-container-input-logo {
-    position: relative;
-
-}
 
 .input-form:focus + .icon-form {
     fill: #4D5AE5;
@@ -836,11 +838,6 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-.modal-form-phone {
-}
-
-.modal-form-email {}
 
 .form-textarea {
     resize: none;
