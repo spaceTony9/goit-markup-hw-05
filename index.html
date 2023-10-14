@@ -431,33 +431,33 @@
                         </div>
                     </div>
                     <div class="modal-container-input-logo">
-                        <label class="modal-form-label" for="comment">Comment</label>
+                        <label class="modal-form-label" for="user-commen">Comment</label>
                         <textarea 
                         class="form-textarea" 
-                        name="comment" 
-                        id="comment"
+                        name="user-commen" 
+                        id="user-commen"
                         placeholder="Text input"></textarea>
                     </div>
+                    <div class="privacy-policy-wrap">
+                        <input 
+                        class="privacy-policy-checkbox visually-hidden"
+                        id="check-input"
+                        type="checkbox"
+                        name="privacy-pocily"
+                        value="accept-privacy-policy"
+                        required>
+                        <label 
+                        class="privacy-policy-text"
+                        for="check-input"
+                        ><span>
+                            <svg class="privacy-policy-icon" height="8" width="10">
+                                <use href="./images/icons.svg#icon-click"></use>
+                            </svg>
+                        </span>I accept the terms and conditions of the 
+                            <a class="privacy-policy-link" href="">Privacy Policy</a>
+                        </label>
+                    </div>
                 </form>
-                <div class="privacy-policy-wrap">
-                    <input 
-                    class="privacy-policy-checkbox visually-hidden"
-                    id="check-input"
-                    type="checkbox"
-                    name="privacy-pocily"
-                    value="accept-privacy-policy"
-                    required>
-                    <label 
-                    class="privacy-policy-text"
-                    for="check-input"
-                    ><span>
-                        <svg class="privacy-policy-icon" height="8" width="10">
-                            <use href="./images/icons.svg#icon-click"></use>
-                        </svg>
-                    </span>I accept the terms and conditions of the 
-                        <a class="privacy-policy-link" href="">Privacy Policy</a>
-                    </label>
-                </div>
                 <button class="form-submit-btn" type="submit">Send</button>
         </div>
         </div>
