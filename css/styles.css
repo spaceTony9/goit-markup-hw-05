@@ -861,12 +861,13 @@ img {
 
 .form-textarea {
     resize: none;
-    padding: 8px 16px 0 16px;
+    padding: 8px 16px;
     height: 120px;
     width: 360px;
     border-radius: 4px;
     border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
     background-color: transparent;
+    outline: transparent;
 
     color: rgba(46, 47, 66, 0.4);
     font-size: 12px;
@@ -915,6 +916,7 @@ img {
     border-radius: 2px;
     margin-right: 8px;
     position: relative;
+    fill: transparent;
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
@@ -952,6 +954,7 @@ img {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border: none;
     cursor: pointer;
+    font-family: "Roboto";
 
     color: var(--WHITE, #FFF);
     text-align: center;
